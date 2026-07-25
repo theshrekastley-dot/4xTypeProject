@@ -13,14 +13,14 @@ function createContextMenu(arr, elem) {
             </div>
             `);
     };
-    modArr.forEach((btn) => {
+    /* modArr.forEach((btn : {label: string, role: string, toggled_name?: string | "placeHolder"}) => {
         if (btn == null) {
             return;
         }
         document.getElementById(btn.label).onclick = () => {
             modArr.find(obj => obj.role == btn.role).label = btn.toggled_name;
-            insertButtons();
-        };
-    });
+            insertButtons()
+        }
+    }) TODO */
 }
 createContextMenu([{ label: "Pin", role: "set-pin" }], "pageID");
