@@ -12,6 +12,7 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "electron": "^43.2.0"
+    "electron": "^43.2.0",
+    "typescript": "^7.0.2"
   }
 }

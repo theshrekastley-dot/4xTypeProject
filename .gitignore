@@ -1,6 +1,10 @@
 # Depedencies
 node_modules/
 
+# Typescript
+
+.ts
+
 # Logs
 npm-debug.log*
 yarn-debug.log*
